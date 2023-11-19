@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="customTextColorButton" format="color" />
+    <attr name="customBackgroundColorButton" format="color" />
+    <attr name="customStrokeColor" format="color" />
+    <attr name="customColorText" format="color" />
+    <attr name="customBottomSheetBackground" format="color" />
+    <attr name="textTitleStartColor" format="color" />
+    <attr name="customBackgroundColorBar" format="color" />
+    <declare-styleable name="AppWidgetAttrs">
+        <attr name="appWidgetPadding" format="dimension" />
+        <attr name="appWidgetInnerRadius" format="dimension" />
+        <attr name="appWidgetRadius" format="dimension" />
+    </declare-styleable>
+</resources>

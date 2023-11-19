@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">تطبيق قصة StorySync</string>
+    <string name="story_sync">StorySync</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="name">الاسم</string>
+    <string name="title_start">فتح لحظات: شارك واستكشف مع StorySync</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">تسجيل</string>
+    <string name="TnC">من خلال المتابعة، أنت توافق على الشروط والأحكام</string>
+    <string name="form_register">نموذج التسجيل</string>
+    <string name="form_login">نموذج تسجيل الدخول</string>
+    <string name="empty">فارغ</string>
+    <string name="empty_story">قصة فارغة</string>
+    <string name="an_error_occurred_during_login">حدث خطأ أثناء تسجيل الدخول.</string>
+    <string name="an_error_occurred_while_fetching_data">حدث خطأ أثناء جلب البيانات.</string>
+    <string name="an_error_occurred_while_registering">حدث خطأ أثناء التسجيل.</string>
+    <string name="close">إغلاق</string>
+    <string name="todo">مهمة قادمة</string>
+    <string name="setting">الإعدادات</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="description">الوصف</string>
+    <string name="gallery">معرض الصور</string>
+    <string name="camera">الكاميرا</string>
+    <string name="save">حفظ</string>
+    <string name="save2">👌 حفظ</string>
+    <string name="new_post">منشور جديد</string>
+    <string name="empty_image_warning">الرجاء تحميل ملف الصورة أولاً.</string>
+    <string name="loading">جارٍ التحميل</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="registration_successful">تم التسجيل بنجاح</string>
+    <string name="data_invalid">بيانات غير صالحة</string>
+    <string name="login_successful">تم تسجيل الدخول بنجاح</string>
+    <string name="description_empty">الوصف فارغ</string>
+    <string name="success">نجاح: %1$s</string>
+    <string name="an_error_occurred_during_post_creation">حدث خطأ أثناء إنشاء المشاركة.</string>
+    <string name="permission_request_granted">تم الموافقة على طلب الإذن</string>
+    <string name="permission_request_denied">تم رفض طلب الإذن</string>
+    <string name="min_8_character">الحد الأدنى 8 أحرف</string>
+    <string name="email_empty">البريد الإلكتروني فارغ</string>
+    <string name="invalid_email_format">تنسيق البريد الإلكتروني غير صالح</string>
+    <string name="confirm_logout">تأكيد تسجيل الخروج</string>
+    <string name="are_you_sure_you_want_to_logout">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="maps">Maps</string>
+    <string name="normal">Normal</string>
+    <string name="satellite">Satellite</string>
+    <string name="terrain">Terrain</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="title_activity_maps">نشاط الخرائط</string>
+    <string name="location">الموقع</string>
+    <string name="desc_location">سيتم استخدام موقعك لإضافة سياق للقصة التي تشاركها</string>
+    <string name="please_enable_location">الرجاء تمكين موقعك</string>
+    <string name="data_has_been_updated">تم تحديث البيانات</string>
+    <string name="offline_mode">وضع عدم الاتصال</string>
+
+</resources>

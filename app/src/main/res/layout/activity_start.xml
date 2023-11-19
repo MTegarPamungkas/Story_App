@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    app:layoutDescription="@xml/activity_start_scene3"
+    tools:context=".ui.StartActivity">
+
+    <ImageView
+        android:id="@+id/img_start"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ibm_bold"
+        android:padding="8dp"
+        android:text="@string/title_start"
+        android:textColor="?attr/textTitleStartColor"
+        android:textSize="40sp"
+        app:layout_constraintTop_toBottomOf="@+id/img_start" />
+
+    <LinearLayout
+        android:id="@+id/linear_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        tools:layout_editor_absoluteX="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_login_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/customBackgroundColorButton"
+            android:text="@string/login"
+            android:textColor="?attr/customTextColorButton"
+            android:textSize="25sp"
+            app:cornerRadius="10dp"
+            app:strokeColor="?attr/customStrokeColor"
+            app:strokeWidth="2dp"
+            tools:ignore="ButtonStyle" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_register_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="?attr/customBackgroundColorButton"
+            android:text="@string/register"
+            android:textColor="?attr/customTextColorButton"
+            android:textSize="25sp"
+            app:cornerRadius="10dp"
+            app:strokeColor="?attr/customStrokeColor"
+            app:strokeWidth="2dp"
+            tools:ignore="ButtonStyle" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/TnC"
+        android:textAlignment="center"
+        android:textColor="?attr/customColorText"
+        android:textSize="14sp"
+
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

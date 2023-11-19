@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SubmissionAplikasiStoryApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+
+        <item name="android:fontFamily">@font/product_sans</item>
+        <item name="android:colorBackground">#1E1F22</item>
+        <item name="customBackgroundColorBar">@color/black_200</item>
+        <item name="customTextColorButton">#A5B1BA</item>
+        <item name="customBackgroundColorButton">@color/transparent</item>
+        <item name="customStrokeColor">@color/white_200</item>
+        <item name="customColorText">#A5B1BA</item>
+        <item name="customBottomSheetBackground">#1E1F22</item>
+        <item name="textTitleStartColor">#A5B1BA</item>
+
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorSecondary">#FFC107</item>
+        <item name="backgroundColor">#121212</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorOnSecondary">#000000</item>
+        <item name="colorPrimaryVariant">#388E3C</item>
+        <item name="colorSecondaryVariant">#FFAB00</item>
+        <item name="colorSurface">#121212</item>
+        <item name="colorOnSurface">#FFFFFF</item>
+        <item name="colorError">#CF6679</item>
+        <item name="colorOnError">#000000</item>
+    </style>
+</resources>

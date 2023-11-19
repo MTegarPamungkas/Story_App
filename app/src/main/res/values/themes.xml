@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="Base.Theme.SubmissionAplikasiStoryApp" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+
+        <item name="android:fontFamily">@font/product_sans</item>
+        <item name="customBackgroundColorBar">@color/yellow_dark</item>
+        <item name="customTextColorButton">@color/white</item>
+        <item name="customBackgroundColorButton">#331F55</item>
+        <item name="customStrokeColor">@color/transparent</item>
+        <item name="customColorText">@color/black_200</item>
+        <item name="customBottomSheetBackground">@color/white</item>
+        <item name="textTitleStartColor">#331F55</item>
+
+        <item name="colorPrimary">#4CAF50</item> <!-- Primary color, Green -->
+        <item name="colorPrimaryDark">#388E3C</item> <!-- Darker shade of the primary color -->
+        <item name="colorSecondary">#FFC107</item> <!-- Secondary color, Amber -->
+        <item name="backgroundColor">#FFFFFF</item> <!-- Background color, White -->
+        <item name="colorOnPrimary">#000000</item> <!-- Text color on primary color, Black -->
+        <item name="colorOnSecondary">#000000</item> <!-- Text color on secondary color, Black -->
+        <item name="colorPrimaryVariant">#4CAF50</item> <!-- Variant of primary color -->
+        <item name="colorSecondaryVariant">#FFAB00</item> <!-- Variant of secondary color -->
+        <item name="colorSurface">#FFFFFF</item> <!-- Surface color, White -->
+        <item name="colorOnSurface">#000000</item> <!-- Text color on surface, Black -->
+        <item name="colorError">#B00020</item> <!-- Error color, Error Red -->
+        <item name="colorOnError">#FFFFFF</item>
+    </style>
+
+
+    <style name="Theme.SubmissionAplikasiStoryApp" parent="Base.Theme.SubmissionAplikasiStoryApp" />
+
+    <style name="Theme.SubmissionAplikasiStoryApp.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <!-- Radius of the outer bound of widgets to make the rounded corners -->
+        <item name="appWidgetRadius">16dp</item>
+        <!--
+        Radius of the inner view's bound of widgets to make the rounded corners.
+        It needs to be 8dp or less than the value of appWidgetRadius
+        -->
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.SubmissionAplikasiStoryApp.AppWidgetContainer" parent="Theme.SubmissionAplikasiStoryApp.AppWidgetContainerParent">
+        <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>
